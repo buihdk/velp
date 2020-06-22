@@ -1,6 +1,13 @@
 import React from 'react';
 import { hot } from 'react-hot-loader/root';
 
-const App = () => <h1>React App Starter</h1>;
+import GoogleMaps from '../components/map/GoogleMap';
+
+const App = () => (
+  <>
+    <h1>Velp</h1>
+    <GoogleMaps />
+  </>
+);
 
 export default hot(App);
